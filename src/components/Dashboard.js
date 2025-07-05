@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Dashboard() {
   return (
@@ -9,12 +10,12 @@ export default function Dashboard() {
           Choose an option to start
         </h4>
         <nav className="d-flex flex-column align-items-center gap-3">
-          <button className="btn btn-warning memory-btn mb-2">Start Onboarding</button>
-          <button className="btn btn-warning memory-btn mb-2">Play Level 1</button>
-          <button className="btn btn-warning memory-btn mb-2">View Library</button>
-          <button className="btn btn-warning memory-btn mb-2">Login</button>
-          <button className="btn btn-warning memory-btn mb-2">Register</button>
-          <button className="btn btn-warning memory-btn mb-2">Play as Guest</button>
+          <Link to="/onboarding" className="btn btn-warning memory-btn mb-2">Start Onboarding</Link>
+          <Link to="/game/1" className="btn btn-warning memory-btn mb-2">Play Level 1</Link>
+          <Link to="/library" className="btn btn-warning memory-btn mb-2">View Library</Link>
+          <Link to="/login" className="btn btn-warning memory-btn mb-2">Login</Link>
+          <Link to="/register" className="btn btn-warning memory-btn mb-2">Register</Link>
+          <Link to="/guest" className="btn btn-warning memory-btn mb-2">Play as Guest</Link>
         </nav>
       </div>
     </div>
