@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "AI & Privacy",
+    "cards": [
+      { "id": "a", "label": "🤖", "explanation": "AI can automate tasks and make decisions!" },
+      { "id": "b", "label": "🔒", "explanation": "Privacy is important in the age of AI." },
+      { "id": "c", "label": "💡", "explanation": "AI can help us learn new things." },
+      { "id": "d", "label": "📱", "explanation": "AI powers many apps on your phone." }
+    ],
+    "pairs": [
+      ["a", "a"],
+      ["b", "b"],
+      ["c", "c"],
+      ["d", "d"]
+    ],
+    "quiz": {
+      "question": "Why is privacy important in AI?",
+      "options": [
+        "To keep our data safe",
+        "To make AI faster",
+        "To use more emojis"
+      ],
+      "answer": 0
+    }
+  }
+] 

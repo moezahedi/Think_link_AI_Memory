@@ -1,15 +1,15 @@
-# Epic Clicker Game
+# Think & Link – AI Memory
 
-A fun clicker game built with React Native and Expo, deployable to the web!
+An educational memory game that teaches AI ethics through interactive gameplay!
 
 ## Features
-- 🎮 Interactive clicker gameplay
-- ⏰ 30-second timer challenge
-- 🏆 High score tracking
-- 💰 Coin system with shop
-- 🛒 Upgrades (Auto Clicker, Power Up)
-- 🎊 Level progression
-- 🌐 Web and mobile support
+- 🧠 Memory-matching gameplay with AI-themed cards
+- 🎓 Educational content about AI ethics and concepts
+- 🎯 Quizzes and explanations after matches
+- 🏆 Progress tracking and badges
+- 📚 Library to review learned content
+- 🌐 Web-based, no installation required
+- 📱 Responsive design for all devices
 
 ## How to run
 
@@ -23,49 +23,51 @@ A fun clicker game built with React Native and Expo, deployable to the web!
    npm start
    ```
 
-3. Build for web:
+3. Build for production:
    ```
-   npm run build:web
-   ```
-
-4. Deploy to GitHub Pages:
-   ```
-   npm run deploy
+   npm run build
    ```
 
 ## Game Instructions
-- Click the big red button to earn points and coins
-- Buy upgrades in the shop to get stronger
-- Try to beat your high score before time runs out!
-- Level up every 50 points for increased click power
+- Match pairs of AI-themed cards to learn about AI ethics
+- Each match reveals educational content and explanations
+- Complete quizzes to test your understanding
+- Unlock new levels and collect badges
+- Review all learned content in the Library
 
 ## Technologies Used
-- React Native
-- Expo
-- React Native Web
-- GitHub Pages (for deployment)
+- React
+- React Router DOM
+- Bootstrap 5
+- CSS3 with modern styling
 
 ## Live Demo
 Play the game at: https://moezahedi.github.io/Think_link_AI_Memory
 
 ## Project Structure
 ```
-my-project/
-  App.js              # Main game component
+ThinkLinkAIMemory/
+  App.js              # Main app with routing
   index.js            # Entry point
-  app.json            # Expo configuration
-  package.json        # Dependencies and scripts
+  index.html          # HTML template
+  components/         # React components
+    Auth/             # Login, Register, Guest
+    Game/             # Memory board, cards, modals
+    Dashboard.js      # Main menu
+    Onboarding.js     # Welcome screen
+    Library.js        # Content review
+  data/               # Game data and levels
+  styles/             # CSS and theming
   assets/             # Images and icons
-  dist/               # Web build (generated)
+  package.json        # Dependencies and scripts
   README.md           # This file
   .gitignore          # Git ignore rules
 ```
 
 ## Development
 - Run `npm start` to start the development server
-- Press `w` to open in web browser
-- Press `a` to open in Android emulator
-- Press `i` to open in iOS simulator
+- Open http://localhost:3000 in your browser
+- The app uses React Router for navigation
 
 ## Deployment
-This project is configured for easy deployment to GitHub Pages. The `dist/` folder contains the web build that gets served. 
+This project is configured for deployment to GitHub Pages. The build folder contains the production-ready files. 
