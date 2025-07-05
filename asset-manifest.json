@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Think_link_AI_Memory/static/css/main.b3a37aab.css",
-    "main.js": "/Think_link_AI_Memory/static/js/main.3434436f.js",
+    "main.js": "/Think_link_AI_Memory/static/js/main.852c819c.js",
     "index.html": "/Think_link_AI_Memory/index.html",
     "main.b3a37aab.css.map": "/Think_link_AI_Memory/static/css/main.b3a37aab.css.map",
-    "main.3434436f.js.map": "/Think_link_AI_Memory/static/js/main.3434436f.js.map"
+    "main.852c819c.js.map": "/Think_link_AI_Memory/static/js/main.852c819c.js.map"
   },
   "entrypoints": [
     "static/css/main.b3a37aab.css",
-    "static/js/main.3434436f.js"
+    "static/js/main.852c819c.js"
   ]
 }
